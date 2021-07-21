@@ -871,8 +871,6 @@ h2 {
 }
 
 .footer-logo-link {
-  max-height: 120px;
-  min-width: 60px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -1044,6 +1042,15 @@ h2 {
 
 .list-item-9 {
   padding-bottom: 8px;
+}
+
+.link-block-6 {
+  text-align: center;
+}
+
+.link-va {
+  color: #af272f;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
