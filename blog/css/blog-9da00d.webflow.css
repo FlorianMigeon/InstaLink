@@ -1385,6 +1385,12 @@ h2 {
   text-align: center;
 }
 
+.link-block-7 {
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-button {
     margin-left: 0px;
@@ -1514,6 +1520,11 @@ h2 {
   .blog-section-rouge {
     padding-bottom: 15px;
   }
+
+  .grid-3 {
+    -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1638,6 +1649,11 @@ h2 {
 
   .blog-section-rouge {
     padding-top: 128px;
+  }
+
+  .grid-3 {
+    -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
   }
 }
 
@@ -1815,6 +1831,11 @@ h2 {
     bottom: -6%;
     font-size: 8px;
   }
+
+  .grid-3 {
+    -ms-grid-columns: minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 1fr);
+  }
 }
 
 #w-node-_9ade8ab2-a892-0936-c866-f235433df242-9a7376d0 {
@@ -1826,17 +1847,6 @@ h2 {
   grid-row-end: 3;
   -ms-grid-row: 2;
   grid-row-start: 2;
-}
-
-#w-node-fea26ac4-81eb-a166-b902-284d58a76d8d-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: Area;
-}
-
-.grid-3>#w-node-fea26ac4-81eb-a166-b902-284d58a76d8d-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
 }
 
 #w-node-_02891ab2-ccd6-7221-b310-8b1afdb24ea2-80fd0057 {
