@@ -1385,10 +1385,14 @@ h2 {
   text-align: center;
 }
 
-.link-block-7 {
-  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1.jpg');
+.link-block-8 {
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1.jpg');
   background-position: 0px 0px;
   background-size: cover;
+}
+
+.image-27 {
+  width: 300px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1849,13 +1853,13 @@ h2 {
   grid-row-start: 2;
 }
 
-#w-node-_02891ab2-ccd6-7221-b310-8b1afdb24ea2-80fd0057 {
+#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: Area;
 }
 
-.grid-3>#w-node-_02891ab2-ccd6-7221-b310-8b1afdb24ea2-80fd0057 {
+.grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
