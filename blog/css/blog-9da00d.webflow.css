@@ -1372,7 +1372,7 @@ h2 {
 }
 
 .grid-3 {
-  grid-template-areas: "Area";
+  grid-template-areas: "Area Area-2";
   -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   -ms-grid-rows: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
@@ -1392,6 +1392,20 @@ h2 {
 }
 
 .image-27 {
+  width: 300px;
+}
+
+.link-block-9 {
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.image-28 {
+  width: 250px;
+}
+
+.image-29 {
   width: 300px;
 }
 
@@ -1837,8 +1851,13 @@ h2 {
   }
 
   .grid-3 {
+    grid-template-areas: "Area";
     -ms-grid-columns: minmax(200px, 1fr);
     grid-template-columns: minmax(200px, 1fr);
+  }
+
+  .image-28 {
+    margin-left: 15px;
   }
 }
 
@@ -1862,5 +1881,12 @@ h2 {
 .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+}
+
+@media screen and (max-width: 479px) {
+  .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
 }
 
