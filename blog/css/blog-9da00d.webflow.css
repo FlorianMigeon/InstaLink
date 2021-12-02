@@ -1372,7 +1372,7 @@ h2 {
 }
 
 .grid-3 {
-  grid-template-areas: "Area";
+  grid-template-areas: "Area Area-2";
   -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   -ms-grid-rows: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
@@ -1862,5 +1862,17 @@ h2 {
 .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+}
+
+#w-node-_7b474500-c54f-83f1-0ea3-33fd68ead8ad-80fd0057 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+#w-node-c7364422-d0f8-d26f-2015-3faa34c77689-80fd0057 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
 }
 
