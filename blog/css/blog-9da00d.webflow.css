@@ -1409,6 +1409,18 @@ h2 {
   width: 300px;
 }
 
+.link-block-10 {
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-2.jpg');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.link-block-11 {
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-3.jpg');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-button {
     margin-left: 0px;
