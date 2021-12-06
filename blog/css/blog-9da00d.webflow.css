@@ -1372,7 +1372,8 @@ h2 {
 }
 
 .grid-3 {
-  grid-template-areas: "Area Area-2";
+  grid-template-areas: "Area Area-2 . . Area-3"
+    "Area-4 . . . .";
   -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   -ms-grid-rows: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
@@ -1419,6 +1420,30 @@ h2 {
   background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-3.jpg');
   background-position: 0px 0px;
   background-size: contain;
+}
+
+.link-block-12 {
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-4.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  font-weight: 400;
+}
+
+.link-block-12.w--current {
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-4.png');
+}
+
+.link-block-13 {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.link-block-13.w--current {
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-5.png');
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 @media screen and (max-width: 991px) {
@@ -1893,6 +1918,18 @@ h2 {
 .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+}
+
+#w-node-eaf2b1aa-c90a-2424-c4b7-f9535dbe3f29-80fd0057 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: Area-3;
+}
+
+#w-node-ef9b9fe0-879f-a0fc-c95a-862c31a15b65-80fd0057 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: Area-3;
 }
 
 @media screen and (max-width: 479px) {
