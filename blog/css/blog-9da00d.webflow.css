@@ -1434,9 +1434,9 @@ h2 {
 }
 
 .link-block-13 {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-5.png');
   background-position: 0px 0px;
-  background-size: auto;
+  background-size: cover;
 }
 
 .link-block-13.w--current {
