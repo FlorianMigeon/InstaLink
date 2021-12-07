@@ -1372,9 +1372,9 @@ h2 {
 }
 
 .grid-3 {
+  grid-auto-columns: 0.25fr;
   grid-row-gap: 16px;
-  grid-template-areas: "Area Area-2 . . Area-3"
-    "Area-4 . . . .";
+  grid-template-areas: ".";
   -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
   -ms-grid-rows: minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr);
@@ -1398,9 +1398,11 @@ h2 {
 }
 
 .link-block-9 {
-  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie.jpg');
-  background-position: 0px 0px;
+  width: 100%;
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1.jpg');
+  background-position: 50% 50%;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 .image-28 {
@@ -1413,13 +1415,13 @@ h2 {
 
 .link-block-10 {
   background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-2.jpg');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: contain;
 }
 
 .link-block-11 {
   background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-3.jpg');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: contain;
 }
 
@@ -1436,7 +1438,7 @@ h2 {
 
 .link-block-13 {
   background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-5.png');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: cover;
 }
 
@@ -1454,8 +1456,289 @@ h2 {
 }
 
 .link-block-14.w--current {
-  background-image: url('../images/Idée-déco-GrandeCuvée_Plan-de-travail-1-copie-6.png');
+  background-image: url('../images/7-GrandeCuvee_Plan-de-travail-1-copie-6.png');
+  background-position: 50% 50%;
   background-size: cover;
+}
+
+.link-block-j2 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j1 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j3 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j4 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-surprise_Plan-de-travail-1-copie-3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j5 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-4.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j6 {
+  width: 100%;
+  background-image: url('../images/plan-calendrier-fermé_Plan-de-travail-1-copie-5.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j7 {
+  width: 100%;
+  background-image: url('../images/7-GrandeCuvee_Plan-de-travail-1-copie-6.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j7-copy {
+  width: 100%;
+  background-image: url('../images/7-GrandeCuvee_Plan-de-travail-1-copie-6.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j7-copy-copy {
+  width: 100%;
+  background-image: url('../images/7-GrandeCuvee_Plan-de-travail-1-copie-6.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j8 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-7.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j8-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-7.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j8-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-7.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j9 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-8.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j10 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-9.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j11 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-10.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j11-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-10.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j12 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-11.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j13 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-12.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j13-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-12.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j14 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-13.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j15 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-14.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j16 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-15.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j17 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-16.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j18 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-17.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j18-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-17.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j19 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-18.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j20 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-19.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j21 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-20.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j22 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-21.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j22-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-21.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j23 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-22.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j24 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-23.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j24-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-23.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j24-copy-copy {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-23.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.link-block-j25 {
+  width: 100%;
+  background-image: url('../images/case-calendrier_Plan-de-travail-1-copie-24.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 @media screen and (max-width: 991px) {
@@ -1593,12 +1876,16 @@ h2 {
   }
 
   .grid-3 {
-    display: block;
+    display: -ms-grid;
+    display: grid;
     grid-auto-columns: 0.25fr;
-    grid-template-areas: "Area Area-2 . Area-5 Area-3"
-      "Area-4 . . . .";
-    -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-areas: ".";
+    -ms-grid-columns: minmax(200px, 1fr) 16px minmax(200px, 1fr) 16px minmax(200px, 1fr);
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+    -ms-grid-rows: minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr) 16px minmax(100px, 1fr);
+    grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
   }
 
   .link-block-8 {
@@ -1608,12 +1895,156 @@ h2 {
     text-align: center;
   }
 
+  .link-block-9 {
+    min-height: 105px;
+  }
+
   .link-block-10 {
     background-size: cover;
   }
 
   .link-block-11 {
     background-size: cover;
+  }
+
+  .link-block-j2 {
+    min-height: 105px;
+  }
+
+  .link-block-j1 {
+    min-height: 105px;
+  }
+
+  .link-block-j3 {
+    min-height: 105px;
+  }
+
+  .link-block-j4 {
+    min-height: 105px;
+  }
+
+  .link-block-j5 {
+    min-height: 105px;
+  }
+
+  .link-block-j6 {
+    min-height: 105px;
+  }
+
+  .link-block-j7 {
+    min-height: 105px;
+  }
+
+  .link-block-j7-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j7-copy-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j8 {
+    min-height: 105px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j9 {
+    min-height: 105px;
+  }
+
+  .link-block-j10 {
+    min-height: 105px;
+  }
+
+  .link-block-j11 {
+    min-height: 105px;
+  }
+
+  .link-block-j11-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j12 {
+    min-height: 105px;
+  }
+
+  .link-block-j13 {
+    min-height: 105px;
+  }
+
+  .link-block-j13-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j14 {
+    min-height: 105px;
+  }
+
+  .link-block-j15 {
+    min-height: 105px;
+  }
+
+  .link-block-j16 {
+    min-height: 105px;
+  }
+
+  .link-block-j17 {
+    min-height: 105px;
+  }
+
+  .link-block-j18 {
+    min-height: 105px;
+  }
+
+  .link-block-j18-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j19 {
+    min-height: 105px;
+  }
+
+  .link-block-j20 {
+    min-height: 105px;
+  }
+
+  .link-block-j21 {
+    min-height: 105px;
+  }
+
+  .link-block-j22 {
+    min-height: 105px;
+  }
+
+  .link-block-j22-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j23 {
+    min-height: 105px;
+  }
+
+  .link-block-j24 {
+    min-height: 105px;
+  }
+
+  .link-block-j24-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j24-copy-copy {
+    min-height: 105px;
+  }
+
+  .link-block-j25 {
+    min-height: 105px;
   }
 }
 
@@ -1744,6 +2175,150 @@ h2 {
   .grid-3 {
     -ms-grid-columns: minmax(200px, 1fr) minmax(200px, 1fr);
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+  }
+
+  .link-block-9 {
+    min-height: 125px;
+  }
+
+  .link-block-j2 {
+    min-height: 125px;
+  }
+
+  .link-block-j1 {
+    min-height: 125px;
+  }
+
+  .link-block-j3 {
+    min-height: 125px;
+  }
+
+  .link-block-j4 {
+    min-height: 125px;
+  }
+
+  .link-block-j5 {
+    min-height: 125px;
+  }
+
+  .link-block-j6 {
+    min-height: 125px;
+  }
+
+  .link-block-j7 {
+    min-height: 125px;
+  }
+
+  .link-block-j7-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j7-copy-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j8 {
+    min-height: 125px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j9 {
+    min-height: 125px;
+  }
+
+  .link-block-j10 {
+    min-height: 125px;
+  }
+
+  .link-block-j11 {
+    min-height: 125px;
+  }
+
+  .link-block-j11-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j12 {
+    min-height: 125px;
+  }
+
+  .link-block-j13 {
+    min-height: 125px;
+  }
+
+  .link-block-j13-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j14 {
+    min-height: 125px;
+  }
+
+  .link-block-j15 {
+    min-height: 125px;
+  }
+
+  .link-block-j16 {
+    min-height: 125px;
+  }
+
+  .link-block-j17 {
+    min-height: 125px;
+  }
+
+  .link-block-j18 {
+    min-height: 125px;
+  }
+
+  .link-block-j18-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j19 {
+    min-height: 125px;
+  }
+
+  .link-block-j20 {
+    min-height: 125px;
+  }
+
+  .link-block-j21 {
+    min-height: 125px;
+  }
+
+  .link-block-j22 {
+    min-height: 125px;
+  }
+
+  .link-block-j22-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j23 {
+    min-height: 125px;
+  }
+
+  .link-block-j24 {
+    min-height: 125px;
+  }
+
+  .link-block-j24-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j24-copy-copy {
+    min-height: 125px;
+  }
+
+  .link-block-j25 {
+    min-height: 125px;
   }
 }
 
@@ -1933,13 +2508,157 @@ h2 {
   }
 
   .grid-3 {
-    grid-template-areas: "Area";
+    grid-template-areas: ".";
     -ms-grid-columns: minmax(200px, 1fr);
     grid-template-columns: minmax(200px, 1fr);
   }
 
+  .link-block-9 {
+    min-height: 150px;
+  }
+
   .image-28 {
     margin-left: 15px;
+  }
+
+  .link-block-j2 {
+    min-height: 150px;
+  }
+
+  .link-block-j1 {
+    min-height: 150px;
+  }
+
+  .link-block-j3 {
+    min-height: 150px;
+  }
+
+  .link-block-j4 {
+    min-height: 150px;
+  }
+
+  .link-block-j5 {
+    min-height: 150px;
+  }
+
+  .link-block-j6 {
+    min-height: 150px;
+  }
+
+  .link-block-j7 {
+    min-height: 150px;
+  }
+
+  .link-block-j7-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j7-copy-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j8 {
+    min-height: 150px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j8-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j9 {
+    min-height: 150px;
+  }
+
+  .link-block-j10 {
+    min-height: 150px;
+  }
+
+  .link-block-j11 {
+    min-height: 150px;
+  }
+
+  .link-block-j11-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j12 {
+    min-height: 150px;
+  }
+
+  .link-block-j13 {
+    min-height: 150px;
+  }
+
+  .link-block-j13-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j14 {
+    min-height: 150px;
+  }
+
+  .link-block-j15 {
+    min-height: 150px;
+  }
+
+  .link-block-j16 {
+    min-height: 150px;
+  }
+
+  .link-block-j17 {
+    min-height: 150px;
+  }
+
+  .link-block-j18 {
+    min-height: 150px;
+  }
+
+  .link-block-j18-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j19 {
+    min-height: 150px;
+  }
+
+  .link-block-j20 {
+    min-height: 150px;
+  }
+
+  .link-block-j21 {
+    min-height: 150px;
+  }
+
+  .link-block-j22 {
+    min-height: 150px;
+  }
+
+  .link-block-j22-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j23 {
+    min-height: 150px;
+  }
+
+  .link-block-j24 {
+    min-height: 150px;
+  }
+
+  .link-block-j24-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j24-copy-copy {
+    min-height: 150px;
+  }
+
+  .link-block-j25 {
+    min-height: 150px;
   }
 }
 
@@ -1952,52 +2671,5 @@ h2 {
   grid-row-end: 3;
   -ms-grid-row: 2;
   grid-row-start: 2;
-}
-
-#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: Area;
-}
-
-.grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-
-#w-node-eaf2b1aa-c90a-2424-c4b7-f9535dbe3f29-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-  grid-area: Area-3;
-}
-
-#w-node-ef9b9fe0-879f-a0fc-c95a-862c31a15b65-80fd0057 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-  grid-area: Area-3;
-}
-
-@media screen and (max-width: 991px) {
-  .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-
-  #w-node-eaf2b1aa-c90a-2424-c4b7-f9535dbe3f29-80fd0057 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-  }
-
-  #w-node-ef9b9fe0-879f-a0fc-c95a-862c31a15b65-80fd0057 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 5;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .grid-3>#w-node-df894ca0-77cc-6cf4-3a06-ed8ef101ad57-80fd0057 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
 }
 
